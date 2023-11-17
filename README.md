@@ -1,5 +1,20 @@
 ![OSTAD - Assignment7](https://cdn.ostad.app/public/upload/2023-10-17T07-14-50.690Z-Logo-new.png)
 
+# OSTAD Assignment 8
+
+- Create ProfileController  using following Command
+
+```
+php artisan make:controller ProfileController 
+```
+
+- Route mapping with ProfileController
+Code
+```
+Route::get('/profile/{id}', [ProfileController::class, 'index']);
+```
+
+
 # OSTAD Assignment 7
 
 ## Laravel Installation
